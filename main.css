@@ -5,6 +5,11 @@ html{
 body{
   margin:0;
 }
+header{
+  padding:4%;
+  background:center url("watermelonskin.jpg");
+  background-size:contain;
+}
 h1{
   text-align:center;
 }
