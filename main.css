@@ -38,6 +38,28 @@ h3{
 .photo{
   border:1px solid red;
 }
+.photo:nth-child(1){
+  background-image:url("watermelon1.png");
+}
+.photo:nth-child(1):hover{
+  background-image:url("watermelon1.png");
+  transform:scale(1.1);
+}
+.photo:nth-child(2){
+  background-image:url("watermelon2.jpeg");
+}
+.photo:nth-child(3){
+  background-image:url("watermelon3.jpeg");
+}
+.photo:nth-child(4){
+  background-image:url("watermelon4.jpeg");
+}
+.photo:nth-child(5){
+  background-image:url("watermelon5.jpg");
+}
+.photo:nth-child(6){
+  background-image:url("watermelon6.jpg");
+}
 
 .varieties ul{
   padding:0 40%;
