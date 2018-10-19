@@ -31,7 +31,9 @@ h3{
 }
 .photocontainer{
   display:grid;
+  grid-gap:50px 2%;
   grid-template:200px 200px/1fr 1fr 1fr;
+  padding-bottom:50px;
 }
 .photo{
   border:1px solid red;
@@ -39,4 +41,11 @@ h3{
 
 .varieties ul{
   padding:0 40%;
+}
+.footer{
+  text-align:center;
+  background:url("watermelonskin.jpg");
+  background-size:contain;
+  bottom:0;
+  padding:2%;
 }
