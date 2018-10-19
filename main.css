@@ -16,3 +16,7 @@ h1{
 h3{
   text-align:center;
 }
+.content-container{
+  margin:auto;
+  width:55%;
+}
