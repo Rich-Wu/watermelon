@@ -42,23 +42,42 @@ h3{
   background-image:url("watermelon1.png");
 }
 .photo:nth-child(1):hover{
-  background-image:url("watermelon1.png");
   transform:scale(1.1);
 }
 .photo:nth-child(2){
   background-image:url("watermelon2.jpeg");
+  background-position:-240px -100px;
+}
+.photo:nth-child(2):hover{
+  transform:rotate(90deg);
 }
 .photo:nth-child(3){
   background-image:url("watermelon3.jpeg");
 }
+.photo:nth-child(3):hover{
+  transition:3s;
+  transform:rotateX(360deg);
+}
 .photo:nth-child(4){
   background-image:url("watermelon4.jpeg");
+}
+.photo:nth-child(4):hover{
+  transition:1s;
+  background-position:-300px -150px;
 }
 .photo:nth-child(5){
   background-image:url("watermelon5.jpg");
 }
+.photo:nth-child(5):hover{
+  transition:3s;
+  transform:rotateY(360deg);
+}
 .photo:nth-child(6){
   background-image:url("watermelon6.jpg");
+}
+.photo:nth-child(6):hover{
+  border-radius:50%;
+  transition:0.3s;
 }
 
 .varieties ul{
@@ -70,4 +89,5 @@ h3{
   background-size:contain;
   bottom:0;
   padding:2%;
+  color:white;
 }
