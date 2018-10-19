@@ -36,3 +36,7 @@ h3{
 .photo{
   border:1px solid red;
 }
+
+.varieties ul{
+  padding:0 40%;
+}
