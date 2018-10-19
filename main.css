@@ -20,3 +20,10 @@ h3{
   margin:auto;
   width:55%;
 }
+.content-container p{
+  text-align:justify;
+}
+.credit{
+  width:100%;
+  text-align:right!important;
+}
