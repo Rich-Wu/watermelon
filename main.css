@@ -22,6 +22,8 @@ h3{
 }
 .content-container p{
   text-align:justify;
+  line-height:2;
+  padding:0px 30px;
 }
 .credit{
   width:100%;
